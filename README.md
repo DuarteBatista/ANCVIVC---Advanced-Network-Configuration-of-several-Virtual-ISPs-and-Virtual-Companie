@@ -15,7 +15,7 @@
 
 ## Description
 
-ANCVIVC (Advanced Network Configuration of several Virtual ISPs and Virtual Companies) is a project that was developed for the Advanced Network Topics course in Computer Engineering at the Polytechnic of Leiria. The final grade for this project was 16 (sixteen, on a scale of 0 to 20). The main aim of this project was to plan, design, configure and document a network scenario with several interconnected ISPs and provide connectivity to a business customer. The tasks of designing and configuring the ISP network were carried out using the GNS3 application.
+ANCVIVC (Advanced Network Configuration of several Virtual ISPs and Virtual Companies) is a project that was developed for the Advanced Network Topics curricular unit of Computer Engineering course at the Polytechnic of Leiria. The final grade for this project was 16 (sixteen, on a scale of 0 to 20). The main aim of this project was to plan, design, configure and document a network scenario with several interconnected ISPs and provide connectivity to a business customer. The tasks of designing and configuring the ISP network were carried out using the GNS3 application.
 
 Some of the requirements implemented to achieve the objectives were:
 
