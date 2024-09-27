@@ -1,0 +1,77 @@
+Jan 18 11:15:45.364 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Jan 18 11:15:45.393 HYPERVISOR: Started on IP = localhost, TCP port = 64762.
+Jan 18 11:15:45.838 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 18 11:15:45.840 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Duarte Batista\Desktop\Topicos_Avancados_Redes\3.Projeto\2.RascunhoGNS\OSPF-RIPv2-TIER-2-PF\project-files\dynamips 
+Jan 18 11:15:45.840 GENERAL: working_dir=C:\Users\Duarte Batista\Desktop\Topicos_Avancados_Redes\3.Projeto\2.RascunhoGNS\OSPF-RIPv2-TIER-2-PF\project-files\dynamips
+Jan 18 11:15:45.840 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Duarte Batista\Desktop\Topicos_Avancados_Redes\3.Projeto\2.RascunhoGNS\OSPF-RIPv2-TIER-2-PF\project-files\dynamips\406566f1-67a3-40c1-abfc-e68c62c45b4b 
+Jan 18 11:15:45.879 GENERAL: working_dir=C:\Users\Duarte Batista\Desktop\Topicos_Avancados_Redes\3.Projeto\2.RascunhoGNS\OSPF-RIPv2-TIER-2-PF\project-files\dynamips\406566f1-67a3-40c1-abfc-e68c62c45b4b
+Jan 18 11:15:45.880 HYPERVISOR: exec_cmd: vm create R21 21 c7200 
+Jan 18 11:15:45.883 VM: VM R21 created.
+Jan 18 11:15:45.883 HYPERVISOR: exec_cmd: vm set_con_tcp_port R21 5029 
+Jan 18 11:15:45.885 HYPERVISOR: exec_cmd: c7200 get_mac_addr R21 
+Jan 18 11:15:45.885 HYPERVISOR: exec_cmd: vm get_status R21 
+Jan 18 11:15:45.886 HYPERVISOR: exec_cmd: vm slot_add_binding R21 0 0 C7200-IO-FE 
+Jan 18 11:15:45.887 HYPERVISOR: exec_cmd: vm set_disk0 R21 0 
+Jan 18 11:15:45.888 HYPERVISOR: exec_cmd: vm set_exec_area R21 64 
+Jan 18 11:15:45.889 HYPERVISOR: exec_cmd: vm get_status R21 
+Jan 18 11:15:45.889 HYPERVISOR: exec_cmd: vm set_idle_pc R21 0x60189224 
+Jan 18 11:15:45.891 HYPERVISOR: exec_cmd: vm set_ios R21 C:/Users/Duarte Batista/GNS3/images/IOS/c7200-adventerprisek9-mz.152-4.M10.image 
+Jan 18 11:15:45.892 HYPERVISOR: exec_cmd: c7200 set_mac_addr R21 ca15.2b28.0000 
+Jan 18 11:15:45.893 HYPERVISOR: exec_cmd: vm set_nvram R21 512 
+Jan 18 11:15:45.894 HYPERVISOR: exec_cmd: vm get_status R21 
+Jan 18 11:15:45.894 HYPERVISOR: exec_cmd: vm slot_add_binding R21 1 0 PA-2FE-TX 
+Jan 18 11:15:45.895 HYPERVISOR: exec_cmd: vm get_status R21 
+Jan 18 11:15:45.896 HYPERVISOR: exec_cmd: vm slot_add_binding R21 2 0 PA-2FE-TX 
+Jan 18 11:15:45.897 HYPERVISOR: exec_cmd: vm get_status R21 
+Jan 18 11:15:45.897 HYPERVISOR: exec_cmd: vm slot_add_binding R21 3 0 PA-2FE-TX 
+Jan 18 11:15:45.898 HYPERVISOR: exec_cmd: vm get_status R21 
+Jan 18 11:15:45.898 HYPERVISOR: exec_cmd: vm slot_add_binding R21 4 0 PA-2FE-TX 
+Jan 18 11:16:07.847 HYPERVISOR: exec_cmd: nio create_udp udp-a23a7930-aa8b-450d-87e4-e7d1fc4b9c99 20132 127.0.0.1 20133 
+Jan 18 11:16:08.813 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R21 4 0 udp-a23a7930-aa8b-450d-87e4-e7d1fc4b9c99 
+Jan 18 11:16:08.814 HYPERVISOR: exec_cmd: vm get_status R21 
+Jan 18 11:16:09.003 HYPERVISOR: exec_cmd: nio create_udp udp-531d8a95-739a-40a0-8cf1-973678b620cd 20138 127.0.0.1 20139 
+Jan 18 11:16:09.047 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R21 2 0 udp-531d8a95-739a-40a0-8cf1-973678b620cd 
+Jan 18 11:16:09.048 HYPERVISOR: exec_cmd: vm get_status R21 
+Jan 18 11:16:14.523 HYPERVISOR: exec_cmd: nio create_udp udp-af2e449c-8379-4c7a-b954-69d5db7f0c9b 20186 127.0.0.1 20187 
+Jan 18 11:16:14.529 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R21 1 0 udp-af2e449c-8379-4c7a-b954-69d5db7f0c9b 
+Jan 18 11:16:14.530 HYPERVISOR: exec_cmd: vm get_status R21 
+Jan 18 11:16:14.683 HYPERVISOR: exec_cmd: nio create_udp udp-6f2fb522-9778-433b-bc82-4ab0311b70cd 20190 127.0.0.1 20191 
+Jan 18 11:16:14.689 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R21 3 0 udp-6f2fb522-9778-433b-bc82-4ab0311b70cd 
+Jan 18 11:16:14.689 HYPERVISOR: exec_cmd: vm get_status R21 
+Jan 18 11:18:49.357 HYPERVISOR: exec_cmd: vm create Ghost 0 c7200 
+Jan 18 11:18:49.358 VM: VM Ghost created.
+Jan 18 11:18:49.360 HYPERVISOR: exec_cmd: vm set_ios Ghost C:/Users/Duarte Batista/GNS3/images/IOS/c7200-adventerprisek9-mz.152-4.M10.image 
+Jan 18 11:18:49.362 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+Jan 18 11:18:49.363 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost C:\Users\Duarte Batista\Desktop\Topicos_Avancados_Redes\3.Projeto\2.RascunhoGNS\OSPF-RIPv2-TIER-2-PF\project-files\dynamips\c7200-adventerprisek9-mz.152-4.M10.image-256.ghost 
+Jan 18 11:18:49.364 HYPERVISOR: exec_cmd: vm set_ram Ghost 256 
+Jan 18 11:18:49.364 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Jan 18 11:18:49.366 HYPERVISOR: exec_cmd: vm set_config Ghost configs\i0_startup-config.cfg 
+Jan 18 11:18:49.367 HYPERVISOR: exec_cmd: vm start Ghost 
+Jan 18 11:18:50.180 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Jan 18 11:18:50.182 HYPERVISOR: exec_cmd: vm stop Ghost 
+Jan 18 11:18:50.312 VM: VM Ghost shutdown.
+Jan 18 11:18:50.316 HYPERVISOR: exec_cmd: vm extract_config Ghost 
+Jan 18 11:18:50.319 HYPERVISOR: exec_cmd: vm clean_delete Ghost 
+Jan 18 11:18:50.319 VM: VM Ghost destroyed.
+Jan 18 11:18:50.328 HYPERVISOR: exec_cmd: vm set_ghost_status R21 2 
+Jan 18 11:18:50.328 HYPERVISOR: exec_cmd: vm set_ghost_file R21 C:\Users\Duarte Batista\Desktop\Topicos_Avancados_Redes\3.Projeto\2.RascunhoGNS\OSPF-RIPv2-TIER-2-PF\project-files\dynamips\c7200-adventerprisek9-mz.152-4.M10.image-256.ghost 
+Jan 18 11:18:50.328 HYPERVISOR: exec_cmd: vm get_status R21 
+Jan 18 11:18:50.362 HYPERVISOR: exec_cmd: vm set_config R21 configs\i21_startup-config.cfg 
+Jan 18 11:18:50.362 HYPERVISOR: exec_cmd: vm start R21 
+Jan 18 11:19:20.840 HYPERVISOR: exec_cmd: vm extract_config R21 
+Jan 18 11:19:50.848 HYPERVISOR: exec_cmd: vm extract_config R21 
+Jan 18 11:36:51.152 HYPERVISOR: exec_cmd: vm extract_config R21 
+Jan 18 11:44:51.321 HYPERVISOR: exec_cmd: vm extract_config R21 
+Jan 18 13:21:37.742 HYPERVISOR: exec_cmd: vm get_status R21 
+Jan 18 13:21:37.742 HYPERVISOR: exec_cmd: vm stop R21 
+Jan 18 13:21:37.988 VM: VM R21 shutdown.
+Jan 18 13:21:37.990 HYPERVISOR: exec_cmd: vm extract_config R21 
+Jan 18 13:21:44.698 HYPERVISOR: exec_cmd: vm get_status R21 
+Jan 18 13:21:44.705 HYPERVISOR: exec_cmd: vm extract_config R21 
+Jan 18 13:21:45.021 HYPERVISOR: exec_cmd: vm get_status R21 
+Jan 18 13:21:45.032 HYPERVISOR: exec_cmd: vm extract_config R21 
+Jan 18 13:21:45.042 HYPERVISOR: exec_cmd: vm delete R21 
+Jan 18 13:21:45.042 VM: VM R21 destroyed.
+Jan 18 13:21:45.052 HYPERVISOR: exec_cmd: hypervisor stop 
+Jan 18 13:21:45.424 HYPERVISOR: Stopped.
+Jan 18 13:21:45.425 GENERAL: reset done.

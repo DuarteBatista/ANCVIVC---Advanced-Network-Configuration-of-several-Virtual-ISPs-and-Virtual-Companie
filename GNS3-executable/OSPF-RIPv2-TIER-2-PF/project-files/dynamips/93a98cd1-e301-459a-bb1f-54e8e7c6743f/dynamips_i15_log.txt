@@ -1,0 +1,45 @@
+Jan 18 11:15:39.377 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Jan 18 11:15:39.380 HYPERVISOR: Started on IP = localhost, TCP port = 64726.
+Jan 18 11:15:39.817 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 18 11:15:39.818 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Duarte Batista\Desktop\Topicos_Avancados_Redes\3.Projeto\2.RascunhoGNS\OSPF-RIPv2-TIER-2-PF\project-files\dynamips 
+Jan 18 11:15:39.818 GENERAL: working_dir=C:\Users\Duarte Batista\Desktop\Topicos_Avancados_Redes\3.Projeto\2.RascunhoGNS\OSPF-RIPv2-TIER-2-PF\project-files\dynamips
+Jan 18 11:15:39.819 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Duarte Batista\Desktop\Topicos_Avancados_Redes\3.Projeto\2.RascunhoGNS\OSPF-RIPv2-TIER-2-PF\project-files\dynamips\b9e01495-fcff-4979-91a5-3fd6bcc7c996 
+Jan 18 11:15:39.857 GENERAL: working_dir=C:\Users\Duarte Batista\Desktop\Topicos_Avancados_Redes\3.Projeto\2.RascunhoGNS\OSPF-RIPv2-TIER-2-PF\project-files\dynamips\b9e01495-fcff-4979-91a5-3fd6bcc7c996
+Jan 18 11:15:39.857 HYPERVISOR: exec_cmd: vm create R14 14 c7200 
+Jan 18 11:15:39.861 VM: VM R14 created.
+Jan 18 11:15:39.862 HYPERVISOR: exec_cmd: vm set_con_tcp_port R14 5014 
+Jan 18 11:15:39.862 HYPERVISOR: exec_cmd: c7200 get_mac_addr R14 
+Jan 18 11:15:39.863 HYPERVISOR: exec_cmd: vm get_status R14 
+Jan 18 11:15:39.863 HYPERVISOR: exec_cmd: vm slot_add_binding R14 0 0 C7200-IO-FE 
+Jan 18 11:15:39.866 HYPERVISOR: exec_cmd: vm set_disk0 R14 0 
+Jan 18 11:15:39.867 HYPERVISOR: exec_cmd: vm set_exec_area R14 64 
+Jan 18 11:15:39.867 HYPERVISOR: exec_cmd: vm get_status R14 
+Jan 18 11:15:39.868 HYPERVISOR: exec_cmd: vm set_idle_pc R14 0x60189224 
+Jan 18 11:15:39.869 HYPERVISOR: exec_cmd: vm set_ios R14 C:/Users/Duarte Batista/GNS3/images/IOS/c7200-adventerprisek9-mz.152-4.M10.image 
+Jan 18 11:15:39.871 HYPERVISOR: exec_cmd: c7200 set_mac_addr R14 ca0e.4cac.0000 
+Jan 18 11:15:39.872 HYPERVISOR: exec_cmd: vm set_nvram R14 512 
+Jan 18 11:15:39.873 HYPERVISOR: exec_cmd: vm get_status R14 
+Jan 18 11:15:39.873 HYPERVISOR: exec_cmd: vm slot_add_binding R14 1 0 PA-2FE-TX 
+Jan 18 11:15:39.874 HYPERVISOR: exec_cmd: vm get_status R14 
+Jan 18 11:15:39.874 HYPERVISOR: exec_cmd: vm slot_add_binding R14 2 0 PA-2FE-TX 
+Jan 18 11:15:39.875 HYPERVISOR: exec_cmd: vm get_status R14 
+Jan 18 11:15:39.876 HYPERVISOR: exec_cmd: vm slot_add_binding R14 3 0 PA-2FE-TX 
+Jan 18 11:15:39.877 HYPERVISOR: exec_cmd: vm get_status R14 
+Jan 18 11:15:39.877 HYPERVISOR: exec_cmd: vm slot_add_binding R14 4 0 PA-2FE-TX 
+Jan 18 11:15:58.972 HYPERVISOR: exec_cmd: nio create_udp udp-7444c9a4-8c26-49e3-b65d-67f5c8214822 20060 127.0.0.1 20061 
+Jan 18 11:15:59.916 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R14 0 0 udp-7444c9a4-8c26-49e3-b65d-67f5c8214822 
+Jan 18 11:15:59.917 HYPERVISOR: exec_cmd: vm get_status R14 
+Jan 18 11:16:00.143 HYPERVISOR: exec_cmd: nio create_udp udp-c6101dbc-4d80-4e41-81e4-689991b59c02 20064 127.0.0.1 20065 
+Jan 18 11:16:00.187 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R14 1 0 udp-c6101dbc-4d80-4e41-81e4-689991b59c02 
+Jan 18 11:16:00.189 HYPERVISOR: exec_cmd: vm get_status R14 
+Jan 18 13:21:37.660 HYPERVISOR: exec_cmd: vm get_status R14 
+Jan 18 13:21:37.663 HYPERVISOR: exec_cmd: vm extract_config R14 
+Jan 18 13:21:44.608 HYPERVISOR: exec_cmd: vm get_status R14 
+Jan 18 13:21:44.610 HYPERVISOR: exec_cmd: vm extract_config R14 
+Jan 18 13:21:44.978 HYPERVISOR: exec_cmd: vm get_status R14 
+Jan 18 13:21:44.980 HYPERVISOR: exec_cmd: vm extract_config R14 
+Jan 18 13:21:44.981 HYPERVISOR: exec_cmd: vm delete R14 
+Jan 18 13:21:44.981 VM: VM R14 destroyed.
+Jan 18 13:21:44.984 HYPERVISOR: exec_cmd: hypervisor stop 
+Jan 18 13:21:45.436 HYPERVISOR: Stopped.
+Jan 18 13:21:45.437 GENERAL: reset done.
